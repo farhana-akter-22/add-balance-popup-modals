@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>add balance pop up second</title>
+         <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet"  href="../dist/output.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500&family=Inter:wght@500&family=Poppins:wght@200;500;600&family=Roboto:ital,wght@0,400;0,500;0,900;1,700&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    </head>
+    <body>
+<div class="flex bg-[#424040] h-screen w-full justify-center items-center">
+    <div class="bg-white w-[648px] h-[230px] rounded-md">
+        <div class="bg-[#F04935] px-6 flex py-4 place-content-between h-14 rounded-t-md">
+            <p class="text-white text-base leading-6 font-medium font-inter">MANAGE COMMISSION</p>
+            <img src="/image/cross.svg" height="12.73px" width="12.73px">
+        </div>
+<div class="flex px-6 pt-6 gap-4">
+    <div class="flex flex-col gap-2.5">  
+       <p class="font-inter text-base font-medium leading-6 text-[#151414]">Commission type</p>
+<button class="relative px-2 flex h-10 w-[292px] place-content-between items-center bg-white border border-[#dbdbdb] focus:outline-none rounded group">
+      <p class="text-sm font-normal leading-5 text-[#151414]">Fixed</p>
+    <div class="flex gap-2.5 items-center justify-center">
+      <img src="/image/down arrow.png" width="12.73px" height="7.78px">
+ 
+    </div>
+    <div class="absolute hidden top-full right-0 min-w-full w-max bg-transparent shadow-md rounded group-focus:block">
+         <ul class="rounded group-focus:fa-2 text-center">
+                <li class="px-4 py-1 hover:bg-[#c6dcf8] text-cyan-400">not fixed</li>
+                <li class="px-4 py-1 hover:bg-slate-200 text-cyan-400">online</li>
+                <li class="px-4 py-1 hover:bg-[#d3e9b0] text-cyan-400">offline</li>
+                <li class="px-4 py-1 hover:bg-[#9bd3d3] text-cyan-400">bkash</li>
+                <li class="px-4 py-1 hover:bg-[#c3a0d8] text-cyan-400">nagad</li>
+                <li class="px-4 py-1 hover:bg-[#b8819b] text-cyan-400">flexi</li>
+         </ul>
+    </div>
+</button>
+    </div>
+<div class="flex flex-col gap-2.5">
+    <label for="first_name" class="box-border font-inter text-base leading-6 h-6 text-[#151414] font-medium">New commission</label>
+    <input type="text" id="first_name" class="px-2 rounded w-[292px] h-10 bg-white border border-[#dbdbdb] text-sm box-border leading-5 font-normal font-inter text-[#676769]" placeholder="Enter new commission amount" required>
+</div>
+</div>
+
+<div class="flex justify-center py-5 items-center">
+    <button class="text-xs flex gap-2.5 justify-center items-center h-9 leading-4 font-medium font-inter bg-[#f04935] hover:opacity-30 hover:text-white rounded-[100px] border box-border w-[145px] text-white">
+        <span class="text-lg text-center flex justify-center items-center">
+            <img src="/image/save changes.png" height="12px" width="12px">
+                </span>Save changes</button>
+</div>
+    </div>
+</div>
+
+    </body>
+  </html>

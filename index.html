@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>add balance pop up first</title>
+         <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet"  href="../dist/output.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500&family=Inter:wght@500&family=Poppins:wght@200;500;600&family=Roboto:ital,wght@0,400;0,500;0,900;1,700&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    </head>
+    <body>
+     
+<div class="flex bg-[#424040] h-screen w-full justify-center items-center">
+    <div class="bg-white w-[478px] h-[376px] rounded-[6px]">
+        <div class="bg-[#F04935] px-6 flex py-4 place-content-between h-[56px] rounded-t-[6px]">
+            <p class="text-white text-base leading-6 font-medium font-inter">AGENT NAME</p>
+            <img src="/image/cross.svg" height="12.73px" width="12.73px">
+        </div>
+        <div class="flex flex-col px-6 pt-4 gap-2.5">
+            <label for="first_name" class="box-border font-inter text-base leading-6 h-6 text-[#151414] font-medium">Add Balance (TK)</label>
+             <input type="text" id="first_name" class="px-2 rounded w-[430px] h-[40px] bg-white border border-[#dbdbdb] text-sm box-border leading-5 font-normal font-inter text-[#676769]" placeholder="Enter amount" required>
+         </div>
+         <div class="grid gap-2.5 p-6 pb-0">
+            <label for="message" class="block leading-6 h-6 text-[#151414] text-base font-medium dark:text-white">Comment</label>
+            <textarea id="message" rows="4" class="block h-[96px] p-2 w-[430px] text-[#676769] text-sm leading-5 font-inter font-normal rounded border border-[#dbdbdb] focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter comment"></textarea>
+            </div>
+            <div class="flex justify-center items-center pt-5">
+                <button class="text-xs flex gap-[11.33px] justify-center items-center h-9 leading-4 font-medium font-inter bg-[#f04935] hover:opacity-30 hover:text-[#f04935] rounded-[100px] border-[1px] box-border w-[134px] text-white"><span class="text-lg text-center flex justify-center items-center">+</span>Add amount</button>
+            </div>
+    </div>
+</div>
+
+    </body>
+  </html>
